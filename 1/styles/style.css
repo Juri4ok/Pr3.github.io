@@ -1,0 +1,13 @@
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hide-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

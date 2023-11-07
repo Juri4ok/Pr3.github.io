@@ -1,0 +1,45 @@
+.carousel-container {
+  position: relative;
+  width: 400px; /* Фіксована ширина контейнера */
+  overflow: hidden; /* Приховати зайві частини */
+}
+
+.carousel {
+  white-space: nowrap; /* Щоб елементи не переносилися */
+}
+
+.image-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Використовувати flexbox для розміщення в ряд */
+  transition: transform 0.5s ease; /* Анімація переміщення */
+}
+
+.image-list li {
+  flex: 0 0 auto; /* Заборонити зміну розміру зображень */
+}
+
+.image-list img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}

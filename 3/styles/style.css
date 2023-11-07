@@ -1,0 +1,19 @@
+.field {
+    width: 400px; /* Фіксована ширина поля */
+    height: 400px; /* Фіксована висота поля */
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+    border: 10px solid black;
+}
+
+.ball {
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+
+}
+img {
+    width: 100%;
+    height: 100%;
+}
