@@ -11,6 +11,7 @@
     position: absolute;
     cursor: pointer;
     width: 50px;
+    transition: left 0.3s ease, top 0.3s ease;
 
 }
 img {
